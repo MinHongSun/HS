@@ -12,5 +12,5 @@ def df(n, start, end):
     df(n-1,6-start-end,end)
 
 n = int(input())
-print(2*n-1)
+print(2**n-1)
 df(n,1,3)
