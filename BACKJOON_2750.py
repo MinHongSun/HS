@@ -19,10 +19,12 @@ for l in range(n):
 
 
 #sort 함수
-n = int(input())
+import sys
+
+n = int(sys.stdin.readline())
 li = []
 for i in range(n):
-    li.append(int(input()))
+    li.append(int(sys.stdin.readline()))
 
 li.sort()
 
