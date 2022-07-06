@@ -1,6 +1,6 @@
 data = []
 count = 0
-
+n = int(input())
 while True:
     try:
         for i in range(n):
