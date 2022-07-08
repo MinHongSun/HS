@@ -1,5 +1,5 @@
 from decimal import Decimal
-import pytest
+
 
 n = int(input())
 
@@ -21,3 +21,4 @@ for _ in range(n):
 
     else:
         print(2)
+
